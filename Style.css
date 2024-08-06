@@ -1584,3 +1584,18 @@ form button {
     margin: auto;
   }
 }
+
+@media only screen (max-width:400px)
+{
+  .aboutme-data p {
+    margin-bottom: -36px;
+}
+
+.aboutme-data {
+  width: 78%;
+  margin-left: 20px;
+  padding: 23px;
+  text-align: center;
+  margin-top: 231px;
+}
+}
