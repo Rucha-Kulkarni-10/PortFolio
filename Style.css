@@ -1585,7 +1585,7 @@ form button {
   }
 }
 
-@media only screen (max-width:400px)
+@media only screen and (max-width:350px)
 {
   .aboutme-data p {
     margin-bottom: -36px;
