@@ -1258,9 +1258,9 @@ form button {
   }
 
   .header-image img {
-    max-width: 50%;
+    width: 50%;
     border-radius: 30%;
-    height: 40%;
+    height: 65%;
     margin-top: 30px;
   }
 
@@ -1409,12 +1409,11 @@ form button {
     padding-bottom: 491px;
   }
 
-  /* about section */
 
-  .about-image img {
-    margin-top: -92px;
-    max-width: 76%;
-  }
+    .about-image img {
+        margin-top: -236px;
+        max-width: 76%;
+    }
 
   .about-image {
     margin-top: -924px;
@@ -1426,7 +1425,7 @@ form button {
     margin-left: 20px;
     padding: 23px;
     text-align: center;
-    margin-top: 344px;
+    margin-top: 476px;
   }
 
   /* tech-skills */
@@ -1598,4 +1597,23 @@ form button {
   text-align: center;
   margin-top: 231px;
 }
+}
+
+
+.read-more-label:active{
+  @media only screen and (max-width: 550px) {
+    .about-image img {
+        margin-top: -496px;
+        max-width: 60%;
+        margin-bottom: 184px;
+    }
+  
+    .aboutme-data {
+      width: 78%;
+      margin-left: 20px;
+      padding: 23px;
+      text-align: center;
+      margin-top: 361px;
+  }
+  }
 }
